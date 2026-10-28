@@ -114,7 +114,7 @@ document.getElementById("checkout")
 
     // GANTIKAN dengan nombor WhatsApp kedai anda.
     // Format: kod negara + nombor, tanpa simbol + atau sengkang.
-    const phone = "60123456789";
+    const phone = "601110280343";
 
     const orderLines = cart.map((item, index) =>
       `${index + 1}. ${item.name}\n` +
