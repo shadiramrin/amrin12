@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HELLO — Boxer Everyday</title>
+  <meta name="description" content="Kedai boxer HELLO. Selesa, bergaya dan sesuai untuk kegunaan harian.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="announcement">
+    🔥 PROMOSI HELLO — Stok terhad, dapatkan sekarang!
+  </div>
+
+  <header class="navbar">
+    <a href="#" class="logo">HELLO<span>.</span></a>
+
+    <nav>
+      <a href="#home">Utama</a>
+      <a href="#produk">Produk</a>
+      <a href="#tentang">Tentang Kami</a>
+    </nav>
+
+    <a href="#produk" class="cart-link">
+      🛒 Troli <span id="cart-count">0</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO EVERYDAY COLLECTION</p>
+        <h1>Keselesaan<br>bermula dari <span>dalam.</span></h1>
+        <p class="hero-description">
+          Boxer yang selesa, bergaya dan sesuai untuk
+          menemani aktiviti harian anda.
+        </p>
+        <a href="#produk" class="btn btn-dark">BELI SEKARANG ↗</a>
+        <div class="hero-note">
+          ✓ Selesa dipakai &nbsp; ✓ Rekaan moden
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="art-circle"></div>
+        <div class="art-label">YOUR EVERYDAY<br>ESSENTIAL.</div>
+        <div class="product-visual">
+          <span>HELLO</span>
+          <div class="waistband"></div>
+          <div class="shorts">
+            <div class="leg left-leg"></div>
+            <div class="leg right-leg"></div>
+          </div>
+        </div>
+        <div class="floating-tag">COMFORT<br>FIRST.</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div>✦ Keselesaan harian</div>
+      <div>✦ Rekaan minimalis</div>
+      <div>✦ Mudah dipadankan</div>
+    </section>
+
+    <section class="products section" id="produk">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SHOP OUR COLLECTION</p>
+          <h2>Produk pilihan.</h2>
+        </div>
+        <p>Pilih warna kegemaran anda.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image black">
+            <span class="product-badge">POPULAR</span>
+            <div class="mini-boxer">
+              <div class="mini-waist">HELLO</div>
+              <div class="mini-body"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>HELLO Classic Black</h3>
+              <p>Warna hitam</p>
+            </div>
+            <strong>RM25.00</strong>
+          </div>
+          <label for="size-black">Saiz</label>
+          <select id="size-black" class="size-select">
+            <option value="S">S</option>
+            <option value="M" selected>M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+          <button class="btn btn-add"
+            data-name="HELLO Classic Black"
+            data-price="25"
+            data-size="size-black">
+            TAMBAH KE TROLI +
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image grey">
+            <span class="product-badge">NEW</span>
+            <div class="mini-boxer">
+              <div class="mini-waist">HELLO</div>
+              <div class="mini-body"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>HELLO Soft Grey</h3>
+              <p>Warna kelabu</p>
+            </div>
+            <strong>RM25.00</strong>
+          </div>
+          <label for="size-grey">Saiz</label>
+          <select id="size-grey" class="size-select">
+            <option value="S">S</option>
+            <option value="M" selected>M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+          <button class="btn btn-add"
+            data-name="HELLO Soft Grey"
+            data-price="25"
+            data-size="size-grey">
+            TAMBAH KE TROLI +
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image cream">
+            <div class="mini-boxer">
+              <div class="mini-waist">HELLO</div>
+              <div class="mini-body"></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>HELLO Sand Beige</h3>
+              <p>Warna beige</p>
+            </div>
+            <strong>RM25.00</strong>
+          </div>
+          <label for="size-beige">Saiz</label>
+          <select id="size-beige" class="size-select">
+            <option value="S">S</option>
+            <option value="M" selected>M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+          <button class="btn btn-add"
+            data-name="HELLO Sand Beige"
+            data-price="25"
+            data-size="size-beige">
+            TAMBAH KE TROLI +
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="promo" id="tentang">
+      <p class="eyebrow">YOUR DAILY COMFORT</p>
+      <h2>Simple. Selesa. HELLO.</h2>
+      <p>Lengkapkan koleksi pakaian harian anda hari ini.</p>
+      <a href="#produk" class="btn btn-light">PILIH PRODUK</a>
+    </section>
+
+    <section class="cart-section section" id="troli">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR ORDER</p>
+          <h2>Troli belian.</h2>
+        </div>
+      </div>
+
+      <div id="cart-items" class="cart-items">
+        <p class="empty-cart">Troli anda masih kosong.</p>
+      </div>
+
+      <div class="cart-total">
+        <span>Jumlah keseluruhan</span>
+        <strong id="cart-total">RM0.00</strong>
+      </div>
+
+      <button id="checkout" class="btn btn-dark checkout-btn">
+        PESAN MELALUI WHATSAPP ↗
+      </button>
+      <p class="small-note">
+        Pesanan akan dihantar melalui WhatsApp untuk pengesahan.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">HELLO<span>.</span></a>
+    <p>© 2026 HELLO. Demo kedai online.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
